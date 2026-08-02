@@ -1,1 +1,200 @@
 @import url("https://fonts.googleapis.com/css2?family=SN+Pro&display=swap");
+
+body {
+  margin: 0;
+  padding: 0 35px 35px;
+  background: linear-gradient(#1e1141, #05051c);
+  font-family: "SN Pro", sans-serif;
+  color: #fff;
+  overflow: auto;
+
+  --theme: #00b7ff;
+  --theme-shadow: #57cfff91;
+  --theme-dark: #0000007e;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: var(--theme-dark) 0 0 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.title img {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 100%;
+  box-shadow: var(--theme-shadow) 0 0 15px;
+}
+
+.section {
+  background-color: var(--theme-dark);
+  border: solid 1.5px var(--theme);
+  border-radius: 12px;
+  box-shadow: var(--theme-dark) 0 0 5px;
+  padding: 0 20px;
+  margin: 35px 0px;
+  width: auto;
+  transition: all 200ms ease-in-out;
+}
+.section:hover {
+  box-shadow: var(--theme-shadow) 0 0 10px;
+}
+.section p {
+  text-align: center;
+}
+.section h2 {
+  border-bottom: dotted 1.5px #fff;
+  width: max-content;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: gray 1px solid;
+  border-radius: 8px;
+  box-shadow: inset #6d6d6d7e 0 0 15px;
+  width: 100%;
+  min-width: 165px;
+  height: auto;
+  padding: 10px;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  transition: all 200ms ease-in-out;
+}
+.block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: var(--bg-image);
+  background-size: contain;
+  background-repeat: space;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+  transition: opacity 200ms ease-in-out;
+}
+.block:hover {
+  transform: scale(1.03);
+  border: var(--theme) 1px solid;
+  box-shadow:
+    var(--theme-shadow) 0 0 10px,
+    inset var(--theme-shadow) 0 0 15px;
+}
+.block:hover::before {
+  opacity: 0.3;
+}
+.block .subheader {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+  text-align: center;
+  color: #fff;
+}
+.block .subheader img {
+  border-radius: 6px;
+  width: 75px;
+}
+.block .subheader .description {
+  font-weight: normal;
+  font-size: small;
+  opacity: 0.75;
+  margin-top: 5px;
+}
+
+.name {
+  color: var(--theme);
+  text-shadow: var(--theme-shadow) 0 0 15px;
+}
+
+.description p {
+  text-align: left;
+}
+
+a:visited {
+  color: #c60eeb;
+}
+
+.horizontal-scroller {
+  height: 150px;
+}
+.horizontal-scroller-large {
+  height: 200px;
+}
+.horizontal-scroller-large .block {
+  min-width: 300px;
+}
+[class*="horizontal-scroller"] {
+  background-color: var(--theme-dark);
+  box-shadow: inset var(--theme-shadow) 0 -2px 5px;
+  border-radius: 10px;
+  width: auto;
+  display: flex;
+  overflow: auto hidden;
+  margin-bottom: 30px;
+  padding: 15px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    display: grid;
+    font-size: x-large;
+    justify-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  h2 {
+    font-size: larger;
+  }
+
+  .description:has(#bio) {
+    overflow: scroll hidden;
+    margin-bottom: 30px;
+  }
+  #bio {
+    width: 1000px;
+  }
+}
+
+/* Custom Scrollbar */
+:root {
+  --track-color: #05052e;
+  --thumb-color: #34befa;
+  --scrollbar-width: 15px;
+  --scrollbar-radius: 5px;
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
+  background-color: var(--track-color);
+}
+::-webkit-scrollbar-track {
+  background-color: var(--track-color);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: var(--scrollbar-radius);
+  border: 1.5px solid var(--theme);
+  background: #1e1141;
+  box-shadow: inset var(--theme-shadow) 0 0 5px;
+}
+
+/* Firefox */
+@supports not selector(::-webkit-scrollbar) {
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: var(--thumb-color) var(--track-color);
+  }
+}

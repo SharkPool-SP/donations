@@ -1,0 +1,77 @@
+{
+  "donations": [
+    {
+      "name": "PayPal",
+      "url": "https://paypal.com/donate/?business=AGLGGVQWUBUFE&item_name=Help+pay+for+my+College+Education",
+      "img": "../images/paypal-logo.svg"
+    },
+    {
+      "name": "Buy Me a Coffee",
+      "url": "https://buymeacoffee.com/sharkpool",
+      "img": "../images/BuyMeACoffee-logo.svg"
+    },
+    {
+      "name": "Stripe",
+      "url": "https://donate.stripe.com/aFa6oJfAp7oY099aeY3gk00",
+      "img": "../images/Stripe-logo.jpeg"
+    },
+    {
+      "name": "Kofi",
+      "url": "https://ko-fi.com/sharkpool_sp",
+      "img": "../images/kofi-logo.svg"
+    },
+    {
+      "name": "Patreon",
+      "url": "https://www.patreon.com/cw/SharkPool",
+      "img": "../images/patreon-logo.png"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Extension Gallery",
+      "desc": "Scratch/Turbowarp extension gallery with over 60 powerful and useful extensions.",
+      "url": "https://sharkpools-extensions.vercel.app/",
+      "img": "../images/project-gallery.svg",
+      "cover": "https://studio.penguinmod.com/static/assets/93259f95026260bc06f83d29d3b89115.svg"
+    },
+    {
+      "name": "Reef Proxy",
+      "desc": "Free CORS Proxy designed for fetching, scraping, and bypassing cross-origin restrictions.",
+      "url": "https://github.com/SharkPool-SP/reef-proxy",
+      "img": "https://cdn.jsdelivr.net/gh/SharkPool-SP/reef-proxy/logo.svg"
+    },
+    {
+      "name": "Community Spotlight",
+      "desc": "Community-powered ad network providing free promotional media to everyone. Anyone can upload and display content at no cost.",
+      "url": "https://community-spotlight.github.io/",
+      "img": "https://cdn.jsdelivr.net/gh/Community-Spotlight/assets/CS-logo.svg"
+    },
+    {
+      "name": "Quartz Particles",
+      "desc": "High-performance, lightweight particle engine using WebGL and TWGL, bundled as an ES module.",
+      "url": "https://github.com/SharkPool-SP/Quartz-Particles",
+      "img": "https://cdn.jsdelivr.net/gh/SharkPool-SP/Quartz-Particles/src/logo.svg"
+    },
+    {
+      "name": "Flappy Bird+",
+      "desc": "A web recreation of the addictive mobile game Flappy Bird, enhanced with custom game modes, and brand-new features built from scratch.",
+      "url": "https://gamejolt.com/games/Flappy-Bird-Plus/802755",
+      "img": "https://m.gjcdn.net/game-thumbnail/500/802755-crop14_0_965_535-yavvgvfg-v4.webp"
+    }
+  ],
+  "bio": [
+    "I drink Coke and catch frogs.",
+    "<br><br>",
+    "My name is Vicente G., also known online as <span class=\"name\">SharkPool</span>, <span class=\"name\">Shark-Pool</span>, or <span class=\"name\">SharkPool-SP</span>.",
+    "I am a <b>software developer</b>, <b>graphical artist</b>, and <b>musician</b> from Canada.",
+    "I primarily develop with <b>JavaScript</b>, <b>HTML</b>, <b>CSS</b>, <b>Java</b>, and <b>C</b>, while also having experience with <b>SQL</b>, <b>NoSQL</b>, and a variety of other frameworks.",
+    "Most of my work revolves around <b>web development</b>, <b>game development</b>, and creating tools that make development easier.",
+    "I enjoy solving problems and bottlenecks, experimenting with new ideas, and constantly expanding my knowledge as both a programmer and a creator.",
+    "<br><br>",
+    "I began programming in early <b>2022</b> with little to no experience. Since then, I've built numerous projects, contributed to popular Scratch mods like <b>Turbowarp</b> and <b>PenguinMod</b>, and continued pushing myself to be a better programmer.",
+    "I'm currently studying <b>Computer Systems</b><i> (and sub-branches)</i> in college while working on personal projects ranging from websites to games and other creative software.",
+    "<br><br>",
+    "Outside of programming, you'll usually find me making music, creating graphic designs, or exploring nature whenever I get the chance.",
+    "You can find my music and games <a target=\"_blank\" href=\"https://shark-pool.newgrounds.com/\">here on <b>Newgrounds</b></a>."
+  ]
+}

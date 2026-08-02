@@ -1,5 +1,13 @@
-# donations
+# Donations
 
-Site for my donation links
+This repository serves as the central hub for my accepted donation methods, along with my biography and a collection of featured projects.
 
-TODO
+## Donation Platforms
+
+The following services are currently supported:
+
+- **PayPal**
+- **Buy Me a Coffee**
+- **Stripe**
+- **Ko-fi**
+- **Patreon**

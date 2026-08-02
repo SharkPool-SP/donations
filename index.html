@@ -18,44 +18,62 @@
       content="https://sharkpool-sp.github.io/donations/images/SP-Text.png"
       property="og:image"
     />
+    <link rel="icon" href="./images/SP-Text.png" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <h1 class="title">
-      Welcome to <span class="name">SharkPool's</span> Donation Hub
+      <img
+        draggable="false"
+        crossorigin="anonymous"
+        src="./images/SP-logo-face.svg"
+      />
+      <span>Welcome to <span class="name">SharkPool's</span> Donation Hub</span>
     </h1>
     <section class="section">
       <p>
         If you've enjoyed my projects or would like to support future
-        development, any donation is greatly appreciated. Donations help fund
-        development, hosting, and other future projects!
+        development, any donation is greatly appreciated! Donations help fund
+        development, hosting, and other future projects.
       </p>
     </section>
     <section class="section">
-      <h3>Donation Options</h3>
-      <div class="horizontal-scroller">
-        <div class="block" style="display: none">
+      <h2>Donation Options</h2>
+      <div class="horizontal-scroller" id="donations">
+        <a
+          class="block"
+          style="display: none"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div class="subheader">
             <img draggable="false" crossorigin="anonymous" />
-            <span>...</span>
+            <span class="name">...</span>
           </div>
-          <a class="hotlink">...</a>
-        </div>
+        </a>
       </div>
     </section>
     <section class="section">
-      <h3>Who Am I?</h3>
-      <div class="description"><p>...</p></div>
+      <h2>Who Am I?</h2>
+      <div class="description"><p id="bio">...</p></div>
     </section>
     <section class="section">
-      <h3>My Projects</h3>
-      <div class="horizontal-scroller">
-        <div class="block" style="display: none">
-          <div class="subsection">
+      <h2>My Projects</h2>
+      <div class="horizontal-scroller-large" id="projects">
+        <a
+          class="block"
+          style="display: none"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="subheader">
             <img draggable="false" crossorigin="anonymous" />
-            <span>...</span>
+            <div>
+              <div class="subtitle">...</div>
+              <div class="description">...</div>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     </section>
     <section class="section">
