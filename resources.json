@@ -3,27 +3,27 @@
     {
       "name": "PayPal",
       "url": "https://paypal.com/donate/?business=AGLGGVQWUBUFE&item_name=Help+pay+for+my+College+Education",
-      "img": "../images/paypal-logo.svg"
+      "img": "./images/paypal-logo.svg"
     },
     {
       "name": "Buy Me a Coffee",
       "url": "https://buymeacoffee.com/sharkpool",
-      "img": "../images/BuyMeACoffee-logo.svg"
+      "img": "./images/BuyMeACoffee-logo.svg"
     },
     {
       "name": "Stripe",
       "url": "https://donate.stripe.com/aFa6oJfAp7oY099aeY3gk00",
-      "img": "../images/Stripe-logo.jpeg"
+      "img": "./images/Stripe-logo.jpeg"
     },
     {
       "name": "Kofi",
       "url": "https://ko-fi.com/sharkpool_sp",
-      "img": "../images/kofi-logo.svg"
+      "img": "./images/kofi-logo.svg"
     },
     {
       "name": "Patreon",
       "url": "https://www.patreon.com/cw/SharkPool",
-      "img": "../images/patreon-logo.png"
+      "img": "./images/patreon-logo.png"
     }
   ],
   "projects": [
@@ -31,7 +31,7 @@
       "name": "Extension Gallery",
       "desc": "Scratch/Turbowarp extension gallery with over 60 powerful and useful extensions.",
       "url": "https://sharkpools-extensions.vercel.app/",
-      "img": "../images/project-gallery.svg",
+      "img": "./images/project-gallery.svg",
       "cover": "https://studio.penguinmod.com/static/assets/93259f95026260bc06f83d29d3b89115.svg"
     },
     {
