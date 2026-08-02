@@ -1,6 +1,6 @@
 /** Utilities */
 const getResources = async function () {
-  const response = await fetch("../resources.json");
+  const response = await fetch("./resources.json");
 
   return await response.json();
 };
