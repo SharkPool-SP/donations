@@ -120,6 +120,10 @@ body {
   text-align: left;
 }
 
+p {
+  font-size: medium;
+}
+
 a:visited {
   color: #c60eeb;
 }
