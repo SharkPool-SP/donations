@@ -47,6 +47,12 @@
       "img": "https://cdn.jsdelivr.net/gh/Community-Spotlight/assets/CS-logo.svg"
     },
     {
+      "name": "InjectX",
+      "desc": "Combines and compiles source code into a single script using a simple '@InjectX' comment command.",
+      "url": "https://sharkpool-sp.github.io/InjectX/",
+      "img": "https://cdn.jsdelivr.net/gh/SharkPool-SP/InjectX/assets/img/logo.svg"
+    },
+    {
       "name": "Quartz Particles",
       "desc": "High-performance, lightweight particle engine using WebGL and TWGL, bundled as an ES module.",
       "url": "https://github.com/SharkPool-SP/Quartz-Particles",
