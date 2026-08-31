@@ -59,6 +59,18 @@
       "img": "https://cdn.jsdelivr.net/gh/SharkPool-SP/Quartz-Particles/src/logo.svg"
     },
     {
+      "name": "JavaScript Utilities",
+      "desc": "Collection of modular JavaScript utilities for web games, interactive apps, and more.",
+      "url": "https://github.com/SharkPool-SP/js-utils",
+      "img": "./images/project-js-utils.svg"
+    },
+    {
+      "name": "Native UI Kit",
+      "desc": "Collection of framework-free, reusable vanilla web components for websites.",
+      "url": "https://github.com/SharkPool-SP/native-ui-kit",
+      "img": "./images/project-ui-kit.svg"
+    },
+    {
       "name": "Flappy Bird+",
       "desc": "A web recreation of the addictive mobile game Flappy Bird, enhanced with custom game modes, and brand-new features built from scratch.",
       "url": "https://gamejolt.com/games/Flappy-Bird-Plus/802755",
