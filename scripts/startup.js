@@ -31,6 +31,9 @@ for (const option of resources.donations) {
 }
 
 for (const option of resources.projects) {
+  let cover = option.cover || option.img;
+  if (cover.startsWith("./") cover = "." + cover;
+
   const node = projectContainer.cloneNode(true);
   node.removeAttribute("style");
 
@@ -38,7 +41,7 @@ for (const option of resources.projects) {
   node.querySelector("img").src = option.img;
   node.querySelector(".subtitle").textContent = option.name;
   node.querySelector(".description").textContent = option.desc;
-  node.style.setProperty("--bg-image", `url("${option.cover || option.img}")`);
+  node.style.setProperty("--bg-image", `url("${cover}")`);
 
   projectNodes.push(node);
 }
