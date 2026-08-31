@@ -32,7 +32,7 @@ for (const option of resources.donations) {
 
 for (const option of resources.projects) {
   let cover = option.cover || option.img;
-  if (cover.startsWith("./") cover = "." + cover;
+  if (cover.startsWith("./")) cover = "." + cover;
 
   const node = projectContainer.cloneNode(true);
   node.removeAttribute("style");
